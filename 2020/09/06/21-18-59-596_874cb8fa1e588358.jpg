@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:700,400&subset=cyrillic' rel='stylesheet' type='text/css'>
+		<title>404</title>
+		<style>
+			.wrapper {
+				width: 620px;
+				display: block;
+				margin: 0 auto;
+			}
+			.div404 {
+				display: block;
+				width: 100%;
+				position: relative;
+				text-align:center;
+			}
+			#span404 {
+				letter-spacing: -20px;
+				color:#3f5d81;
+				font: bold 400px Arial,sans-serif;
+				margin-left: -18px;
+			}
+			#oshibka {
+				display: block;
+				position: absolute;
+				float: left;
+				top: 74px;
+				left: 96px;
+				color: #fff;
+				font: bold 96px 'PT Sans Narrow',Arial,sans-serif; 
+			}
+			#ne {
+				display: block;
+				position: absolute;
+				float: left;
+				top: 180px;
+				left: 156px;
+				color: #fff;
+				font: bold 90px 'PT Sans Narrow',Arial,sans-serif; 
+			}
+			#naideno {
+				display: block;
+				position: absolute;
+				float: left;
+				top: 214px;
+				left: 335px;
+				color: #fff;
+				font: bold 75px 'PT Sans Narrow',Arial,sans-serif; 
+			}
+			@media(max-width: 636px) {
+				.wrapper {
+					width: 300px;
+				}
+				#span404 {
+					letter-spacing: -10px;
+					font-size: 200px;
+					margin-left: -9px;
+				}
+				#oshibka {
+					top: 42px;
+					left: 44px;
+					font-size: 46px; 
+				}
+				#ne {
+					top: 94px;
+					left: 74px;
+					font-size: 45px; 
+				}
+				#naideno {
+					top: 110px;
+					left: 164px;
+					font-size: 38px; 
+				}
+			}
+			.widget_nav_menu {
+				text-align: center;
+			}
+			.widget_nav_menu a {
+				background: #f5f5f5;
+				color: #666;
+				padding: 3px 10px;
+				margin: 0 3px 10px;
+				font: 16px/25px 'PT Sans Narrow',Arial,sans-serif;
+				display: inline-block;
+				border-radius: 2px;
+				transition: all 0.3s ease 0s;
+			}
+			.widget_nav_menu a:hover {
+				background: #3f5d81;
+				color: #fff;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="div404">
+				<div id="span404">404</div>
+				<div id="oshibka">ОШИБКА</div>
+				<div id="ne">НЕ</div>
+				<div id="naideno">НАЙДЕНО</div>
+			</div>
+		</div>
+		<div class="widget_nav_menu">
+			<a title="Бизнес-идеи" href="http://coolidea.ru/">Бизнес-идеи</a>
+			<a title="Франшизы" href="http://coolidea.ru/franchising/">Франшизы</a>
+			<a title="Бизнес-планы" href="http://coolidea.ru/business-plan/">Бизнес-планы</a>
+			<a title="Форумы" href="hhttp://coolidea.ru/forums/">Форумы</a>
+			<a title="Выставки и конференции" href="http://coolidea.ru/events/">Выставки</a>
+			<a title="Тендеры" href="http://tender.coolidea.ru/">Тендеры</a>
+			<a title="Исследования" href="http://research.coolidea.ru/">Исследования</a>
+		</div>
+	</body>
+</html>
